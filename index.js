@@ -20,6 +20,8 @@ app.get("/ossequi", (req, res) => {
 })
 
 
+// l'url dovrebbe essere strutturato così:
+// http://localhost:8000/osebasta
 app.get("/osebasta", (req, res) => {
   const os = req.get("user-agent").substr(13,1)
   sistema = "Secondo le ricerche condotte nel nostro Quartier Generale lei come sistema operativo sta usando "
