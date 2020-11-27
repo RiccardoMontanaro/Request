@@ -1,0 +1,22 @@
+{
+  "name": "requests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RiccardoMontanaro/requests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RiccardoMontanaro/requests/issues"
+  },
+  "homepage": "https://github.com/RiccardoMontanaro/requests#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
