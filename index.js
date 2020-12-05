@@ -40,4 +40,4 @@ app.get("/osebasta", (req, res) => {
 })
 
 
-app.listen(8000, () =>  console.log("Il server è attivo sulla porta " + port + ", glhf!"))
+app.listen(port, () =>  console.log("Il server è attivo sulla porta " + port + ", glhf!"))
